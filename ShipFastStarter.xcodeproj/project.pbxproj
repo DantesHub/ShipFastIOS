@@ -12,6 +12,19 @@
 		88B37D112C23FD60000A7D91 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B37D102C23FD60000A7D91 /* Item.swift */; };
 		88B37D132C23FD60000A7D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B37D122C23FD60000A7D91 /* Assets.xcassets */; };
 		88B37D162C23FD60000A7D91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B37D152C23FD60000A7D91 /* Preview Assets.xcassets */; };
+		88B37D242C23FDF8000A7D91 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B37D232C23FDF8000A7D91 /* MainViewModel.swift */; };
+		88B37D2A2C24018B000A7D91 /* SuperwallKit in Frameworks */ = {isa = PBXBuildFile; productRef = 88B37D292C24018B000A7D91 /* SuperwallKit */; };
+		88B37D2D2C2404D5000A7D91 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 88B37D2C2C2404D5000A7D91 /* AppsFlyerLib */; };
+		88B37D302C24052B000A7D91 /* Mixpanel in Frameworks */ = {isa = PBXBuildFile; productRef = 88B37D2F2C24052B000A7D91 /* Mixpanel */; };
+		88B37D322C2406DA000A7D91 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B37D312C2406DA000A7D91 /* Constants.swift */; };
+		88B37D342C240761000A7D91 /* RCPurchaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B37D332C240761000A7D91 /* RCPurchaseController.swift */; };
+		88B37D372C2407DF000A7D91 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B37D362C2407DF000A7D91 /* AnalyticsService.swift */; };
+		88B37D3A2C240CAB000A7D91 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 88B37D392C240CAB000A7D91 /* RevenueCat */; };
+		88B37D3C2C240CF3000A7D91 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B37D3B2C240CF3000A7D91 /* HomeScreen.swift */; };
+		88B37D3E2C240CFF000A7D91 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B37D3D2C240CFF000A7D91 /* OnboardingScreen.swift */; };
+		88B37D402C240D12000A7D91 /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B37D3F2C240D12000A7D91 /* SharedComponents.swift */; };
+		88B37D422C240D5D000A7D91 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B37D412C240D5D000A7D91 /* FontManager.swift */; };
+		88B37D442C240D77000A7D91 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B37D432C240D77000A7D91 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +34,15 @@
 		88B37D102C23FD60000A7D91 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		88B37D122C23FD60000A7D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88B37D152C23FD60000A7D91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88B37D232C23FDF8000A7D91 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		88B37D312C2406DA000A7D91 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		88B37D332C240761000A7D91 /* RCPurchaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCPurchaseController.swift; sourceTree = "<group>"; };
+		88B37D362C2407DF000A7D91 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
+		88B37D3B2C240CF3000A7D91 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		88B37D3D2C240CFF000A7D91 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		88B37D3F2C240D12000A7D91 /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		88B37D412C240D5D000A7D91 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		88B37D432C240D77000A7D91 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +50,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B37D3A2C240CAB000A7D91 /* RevenueCat in Frameworks */,
+				88B37D302C24052B000A7D91 /* Mixpanel in Frameworks */,
+				88B37D2A2C24018B000A7D91 /* SuperwallKit in Frameworks */,
+				88B37D2D2C2404D5000A7D91 /* AppsFlyerLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +65,7 @@
 			children = (
 				88B37D0B2C23FD60000A7D91 /* ShipFastStarter */,
 				88B37D0A2C23FD60000A7D91 /* Products */,
+				88B37D382C240CAB000A7D91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,8 +80,12 @@
 		88B37D0B2C23FD60000A7D91 /* ShipFastStarter */ = {
 			isa = PBXGroup;
 			children = (
+				88B37D222C23FDEE000A7D91 /* Model */,
+				88B37D1F2C23FD83000A7D91 /* Resources */,
+				88B37D1E2C23FD7C000A7D91 /* Helpers */,
+				88B37D1D2C23FD78000A7D91 /* Views */,
+				88B37D1C2C23FD74000A7D91 /* ViewModels */,
 				88B37D0C2C23FD60000A7D91 /* ShipFastStarterApp.swift */,
-				88B37D0E2C23FD60000A7D91 /* ContentView.swift */,
 				88B37D102C23FD60000A7D91 /* Item.swift */,
 				88B37D122C23FD60000A7D91 /* Assets.xcassets */,
 				88B37D142C23FD60000A7D91 /* Preview Content */,
@@ -68,6 +99,98 @@
 				88B37D152C23FD60000A7D91 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88B37D1C2C23FD74000A7D91 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		88B37D1D2C23FD78000A7D91 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				88B37D0E2C23FD60000A7D91 /* ContentView.swift */,
+				88B37D262C23FFE9000A7D91 /* Home */,
+				88B37D252C23FFE5000A7D91 /* Onboarding */,
+				88B37D3F2C240D12000A7D91 /* SharedComponents.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		88B37D1E2C23FD7C000A7D91 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				88B37D352C2407D0000A7D91 /* Services */,
+				88B37D312C2406DA000A7D91 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		88B37D1F2C23FD83000A7D91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				88B37D212C23FD91000A7D91 /* Fonts */,
+				88B37D202C23FD8C000A7D91 /* Animations */,
+				88B37D432C240D77000A7D91 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		88B37D202C23FD8C000A7D91 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		88B37D212C23FD91000A7D91 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				88B37D412C240D5D000A7D91 /* FontManager.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		88B37D222C23FDEE000A7D91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88B37D232C23FDF8000A7D91 /* MainViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88B37D252C23FFE5000A7D91 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				88B37D3D2C240CFF000A7D91 /* OnboardingScreen.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		88B37D262C23FFE9000A7D91 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				88B37D3B2C240CF3000A7D91 /* HomeScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		88B37D352C2407D0000A7D91 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				88B37D332C240761000A7D91 /* RCPurchaseController.swift */,
+				88B37D362C2407DF000A7D91 /* AnalyticsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		88B37D382C240CAB000A7D91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +209,12 @@
 			dependencies = (
 			);
 			name = ShipFastStarter;
+			packageProductDependencies = (
+				88B37D292C24018B000A7D91 /* SuperwallKit */,
+				88B37D2C2C2404D5000A7D91 /* AppsFlyerLib */,
+				88B37D2F2C24052B000A7D91 /* Mixpanel */,
+				88B37D392C240CAB000A7D91 /* RevenueCat */,
+			);
 			productName = ShipFastStarter;
 			productReference = 88B37D092C23FD60000A7D91 /* ShipFastStarter.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +243,12 @@
 				Base,
 			);
 			mainGroup = 88B37D002C23FD60000A7D91;
+			packageReferences = (
+				88B37D272C2400F5000A7D91 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
+				88B37D282C24018B000A7D91 /* XCRemoteSwiftPackageReference "Superwall-iOS" */,
+				88B37D2B2C2404D5000A7D91 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+				88B37D2E2C24052B000A7D91 /* XCRemoteSwiftPackageReference "mixpanel-swift" */,
+			);
 			productRefGroup = 88B37D0A2C23FD60000A7D91 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B37D442C240D77000A7D91 /* Colors.xcassets in Resources */,
 				88B37D162C23FD60000A7D91 /* Preview Assets.xcassets in Resources */,
 				88B37D132C23FD60000A7D91 /* Assets.xcassets in Resources */,
 			);
@@ -140,9 +276,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B37D322C2406DA000A7D91 /* Constants.swift in Sources */,
+				88B37D342C240761000A7D91 /* RCPurchaseController.swift in Sources */,
 				88B37D0F2C23FD60000A7D91 /* ContentView.swift in Sources */,
 				88B37D112C23FD60000A7D91 /* Item.swift in Sources */,
+				88B37D402C240D12000A7D91 /* SharedComponents.swift in Sources */,
+				88B37D3C2C240CF3000A7D91 /* HomeScreen.swift in Sources */,
+				88B37D422C240D5D000A7D91 /* FontManager.swift in Sources */,
+				88B37D3E2C240CFF000A7D91 /* OnboardingScreen.swift in Sources */,
 				88B37D0D2C23FD60000A7D91 /* ShipFastStarterApp.swift in Sources */,
+				88B37D372C2407DF000A7D91 /* AnalyticsService.swift in Sources */,
+				88B37D242C23FDF8000A7D91 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +492,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		88B37D272C2400F5000A7D91 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.43.0;
+			};
+		};
+		88B37D282C24018B000A7D91 /* XCRemoteSwiftPackageReference "Superwall-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/superwall/Superwall-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		88B37D2B2C2404D5000A7D91 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.14.4;
+			};
+		};
+		88B37D2E2C24052B000A7D91 /* XCRemoteSwiftPackageReference "mixpanel-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mixpanel/mixpanel-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		88B37D292C24018B000A7D91 /* SuperwallKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88B37D282C24018B000A7D91 /* XCRemoteSwiftPackageReference "Superwall-iOS" */;
+			productName = SuperwallKit;
+		};
+		88B37D2C2C2404D5000A7D91 /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88B37D2B2C2404D5000A7D91 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+		88B37D2F2C24052B000A7D91 /* Mixpanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88B37D2E2C24052B000A7D91 /* XCRemoteSwiftPackageReference "mixpanel-swift" */;
+			productName = Mixpanel;
+		};
+		88B37D392C240CAB000A7D91 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88B37D272C2400F5000A7D91 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 88B37D012C23FD60000A7D91 /* Project object */;
 }
