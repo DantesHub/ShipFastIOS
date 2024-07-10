@@ -38,7 +38,7 @@ struct ShipFastStarterApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
                 .environmentObject(mainVM)
         }
         .modelContainer(sharedModelContainer)
