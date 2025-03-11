@@ -11,8 +11,7 @@ import SwiftData
 struct ContentView: View {
     @EnvironmentObject var mainVM: MainViewModel
     @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
-
+    
     var body: some View {
         GeometryReader { _ in
             ZStack {
@@ -22,28 +21,15 @@ struct ContentView: View {
                     OnboardingScreen()
                 case .home:
                     HomeScreen()
+                case .stats:
+                    StatsScreen()
                 }
-            }
-        }
-    }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
-            }
+            }.edgesIgnoringSafeArea(.all)
         }
     }
 }
 
 #Preview {
     ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+        // .modelContainer(for: Item.self, inMemory: true)
 }

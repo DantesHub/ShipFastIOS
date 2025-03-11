@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict/>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<!-- ClashDisplay Font Family -->
+		<string>ClashDisplay-Regular.otf</string>
+		<string>ClashDisplay-Medium.otf</string>
+		<string>ClashDisplay-Semibold.otf</string>
+		<string>ClashDisplay-Bold.otf</string>
+		<string>ClashDisplay-Light.otf</string>
+		<string>ClashDisplay-Extralight.otf</string>
+		
+		<!-- Silkscreen Font Family -->
+		<string>Silkscreen-Regular.ttf</string>
+		<string>Silkscreen-Bold.ttf</string>
+	</array>
+</dict>
+</plist>

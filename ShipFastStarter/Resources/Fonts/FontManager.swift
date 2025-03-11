@@ -31,6 +31,14 @@ struct FontManager {
         case .extraLight: return Font.custom("ClashDisplay-Extralight", size: size.rawValue)
         }
     }
+    
+    // Silkscreen font helper function
+    static func silkscreen(type: SilkscreenType, size: FontSize) -> Font {
+        switch type {
+        case .regular: return Font.custom("Silkscreen-Regular", size: size.rawValue)
+        case .bold: return Font.custom("Silkscreen-Bold", size: size.rawValue)
+        }
+    }
     // Add other custom styles as needed
 }
 
@@ -42,6 +50,12 @@ enum ClashType {
     case bold
     case light
     case extraLight
+}
+
+// New enum for Silkscreen font types
+enum SilkscreenType {
+    case regular
+    case bold
 }
 
 enum FontSize: CGFloat {
@@ -71,8 +85,14 @@ extension View {
     func body1() -> some View {
         self.font(FontManager.body1())
     }
+    
     func clash(type: ClashType, size: FontSize) -> some View {
         self.font(FontManager.clash(type: type, size: size))
+    }
+    
+    // New View extension for Silkscreen font
+    func silkscreen(type: SilkscreenType, size: FontSize) -> some View {
+        self.font(FontManager.silkscreen(type: type, size: size))
     }
     
     // Add other custom modifiers as needed

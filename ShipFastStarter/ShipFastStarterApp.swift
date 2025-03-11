@@ -7,7 +7,6 @@
 
 import SwiftUI
 import SwiftData
-import SwiftData
 import Mixpanel
 import AppsFlyerLib
 import RevenueCat
@@ -25,7 +24,10 @@ struct ShipFastStarterApp: App {
     
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            TomoModel.self,
+            EggModel.self,
+            FocusSessionRecord.self,
+            UserModel.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -38,7 +40,7 @@ struct ShipFastStarterApp: App {
 
     var body: some Scene {
         WindowGroup {
-            MainView()
+            ContentView()
                 .environmentObject(mainVM)
         }
         .modelContainer(sharedModelContainer)
